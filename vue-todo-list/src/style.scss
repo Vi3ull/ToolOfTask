@@ -1,0 +1,26 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import 'bootstrap-vue-3/dist/bootstrap-vue-3.css';
+
+body {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.bi {
+  margin-bottom: 0!important;
+}
+
+.form-check {
+  flex-grow: 1;
+}
+
+.form-check-input {
+  &:checked {
+    & + .form-check-label {
+      text-decoration: line-through;
+    }
+  }
+}
+
+.form-check-label {
+  width: 100%;
+}
